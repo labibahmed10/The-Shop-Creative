@@ -17,7 +17,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive ? "text-[#023047] border-b-2 border-[#023047]" : "text-[#577590]"
           }
-          to="/review"
+          to="/reviews"
         >
           Reviews
         </NavLink>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import image from "../../images/shoe.png";
 import { useReview } from "../CustomHook/CustomHook";
@@ -6,6 +7,8 @@ import Review from "../Review/Review";
 
 const Home = () => {
   const [reviews, setReviews] = useReview();
+
+  const navigate = useNavigate();
   return (
     <div>
       <div className="flex justify-around items-center mx-6 pt-20">
@@ -36,7 +39,10 @@ const Home = () => {
             <Review key={review.id} review={review}></Review>
           ))}
         </div>
-        <button className="mx-auto block mt-8 mb-24 px-4 py-3 rounded-md text-white bg-[#84a59d] hover:bg-[#6b8d86]">
+        <button
+          onClick={() => navigate("/reviews")}
+          className="mx-auto block mt-8 mb-24 px-4 py-3 rounded-md text-white bg-[#84a59d] hover:bg-[#6b8d86]"
+        >
           See All Reviews
         </button>
       </section>
