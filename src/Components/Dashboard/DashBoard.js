@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react";
+import React from "react";
 
 import {
   BarChart,
@@ -11,7 +11,6 @@ import {
   Legend,
   PieChart,
   Pie,
-  ResponsiveContainer,
   AreaChart,
   Area,
   ComposedChart,
