@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Christopher Campbell",
+    "reviewtxt": "Probably the best shoes in town.Going to give them 5 stars without hesitation.I was very excited about these shoes.Initially felt comfortable. I did notice immediately that the sol does not come up far enough.",
+    "img": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Svyatoslav Romanov",
+    "reviewtxt": "I wear these to work (the gold pair) and haven't had any issues with stinkiness, even without socks.",
+    "img": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Russian Putin",
+    "reviewtxt": "Great service and great quality,looking to buy more near future! Going to use them for Joe Biden such a stupid one",
+    "img": "https://www.aljazeera.com/wp-content/uploads/2022/03/AP22069559154219.jpeg?resize=770%2C513"
+  },
+  {
+    "id": 4,
+    "name": "Joe Biden",
+    "reviewtxt": "Amazing products.I wondered how they managed to keep the same price from last year.recommonded to everyone buying these for my wife",
+    "img": "https://ichef.bbci.co.uk/news/976/cpsprodpb/1E22/production/_123841770_biden_976getty.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Boris Johnson",
+    "reviewtxt": "Heck with my hairs Im in love with these shoes cz they are so cheap. Also, I wouldnt be able to wear them for more than 4 hours because they offer no support.",
+    "img": "https://i2-prod.manchestereveningnews.co.uk/incoming/article22209366.ece/ALTERNATES/s1200c/2__DSC9225JPGjpgwhen.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Osama Bin Laden",
+    "reviewtxt": "Masha'Allah walhamdulillah what a shoe!.Good luck to Biden now-a-days if I was alive I was going to make bomb and wallahi boom biden's house",
+    "img": "https://cdn.britannica.com/93/153593-050-15D2B42F/Osama-bin-Laden.jpg?w=400&h=300&c=crop"
+  },
+  {
+    "id": 7,
+    "name": "Kim Jong Un",
+    "reviewtxt": "Wow amazing shoes and so cheap as I have purchased from them so may times.I got the leopard and its a close dupe of the much more expensive Rothy!",
+    "img": "https://www.boredpanda.com/blog/wp-content/uploads/2016/05/kim-jong-un-mutant-cartman-5739eec748aad__700.jpg"
+  }
+]
