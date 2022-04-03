@@ -1,5 +1,7 @@
 import React from "react";
 
+import { AiOutlineStar } from "react-icons/ai";
+
 const Review = ({ review }) => {
   console.log(review);
 
@@ -11,6 +13,15 @@ const Review = ({ review }) => {
       <p>
         <span className="text-2xl text-semibold">Customer says:</span> {reviewtxt}
       </p>
+
+      <div className="flex justify-end pr-1  items-center">
+        <p className="pr-1">4.9</p>
+        <AiOutlineStar className="text-orange-400"></AiOutlineStar>
+        <AiOutlineStar className="text-orange-400"></AiOutlineStar>
+        <AiOutlineStar className="text-orange-400"></AiOutlineStar>
+        <AiOutlineStar className="text-orange-400"></AiOutlineStar>
+        <AiOutlineStar className="text-orange-400"></AiOutlineStar>
+      </div>
     </div>
   );
 };
