@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import About from "./Components/About/About";
 import Blogs from "./Components/Blogs/Blogs";
 import DashBoard from "./Components/Dashboard/DashBoard";
 import NotFound from "./Components/ErrorNotFound/NotFound";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/reviews" element={<ReviewPage></ReviewPage>}></Route>
         <Route path="/dashboard" element={<DashBoard></DashBoard>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>

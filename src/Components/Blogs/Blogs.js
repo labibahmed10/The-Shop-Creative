@@ -5,7 +5,7 @@ const Blogs = () => {
     <div className="w-3/4 mx-auto text-justify text-[#6c8881]">
       <div>
         <h1 className="text-center text-3xl pt-10 pb-5">What is 'Context API' & what is it's purpose?</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#023047]">
           <span className="text-2xl">Answer: </span>In past we had always used prop drilling means we had to
           send any state's value or any other value one by one through other components to reach the exact one
           which needs by props(properties).It is really time consuming and it takes the patience level of a
@@ -21,7 +21,7 @@ const Blogs = () => {
       <div>
         <h1 className="text-center text-3xl pt-10 pb-5">What is Semantic Tag?</h1>
 
-        <p className="text-xl">
+        <p className="text-xl text-[#023047]">
           <span className="text-2xl">Answer: </span>Semantic tag or HTML provides additional information about
           that document website.It tells the browser what is the meaning of the page and inside of it's
           content is.In October 2014, HTML4 got upgraded to HTML5 with some new semantic elements.
@@ -38,7 +38,7 @@ const Blogs = () => {
           Differnce between inline,block and inline-block element?
         </h1>
 
-        <p className="text-xl pb-10">
+        <p className="text-xl pb-10 text-[#023047]">
           <span className="text-2xl">Answer: </span>In HTML there are various kind of elements for the
           browser.One of them is 'Display' property.It has so many values like
           flex,grid,inline,block,inline-block,hidden etc. <br />
