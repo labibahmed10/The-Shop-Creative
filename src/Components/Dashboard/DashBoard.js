@@ -57,7 +57,7 @@ const DashBoard = () => {
   ];
 
   return (
-    <div className="flex items-center justify-evenly md:flex-row flex-col pt-16 flex-wrap gap-5 ">
+    <div className="flex items-center justify-between md:flex-row flex-col pt-16 flex-wrap gap-5 ">
       <div>
         <h2 className="text-center pb-5 text-xl font-[700] text-[#8884d8]">Investment vs Revenue</h2>
 
