@@ -27,6 +27,8 @@ const About = () => {
           Subscribe<AiOutlineArrowRight className="ml-1"></AiOutlineArrowRight>
         </button>
       </div>
+
+      <p className="pt-12 text-md font-semibold text-[#779c84]">Subscribe for exciting update</p>
     </div>
   );
 };
