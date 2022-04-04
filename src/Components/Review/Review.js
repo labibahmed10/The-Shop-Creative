@@ -7,11 +7,11 @@ const Review = ({ review }) => {
 
   const { img, name, reviewtxt } = review;
   return (
-    <div className="border-2 border-[#6d6875] p-2 w-80 mx-auto rounded-lg text-[#14213d]">
+    <div className="border-2 border-[#6d6875] p-2 md:w-80 w-72 mx-auto rounded-lg text-[#14213d]">
       <img className="w-full h-64 object-contain mx-auto" src={img} alt="" />
-      <h1 className="text-2xl pt-4 font-semibold">Name: {name}</h1>
+      <h1 className="md:text-2xl text-xl md:pt-4 pt-2 font-semibold">Name: {name}</h1>
       <p>
-        <span className="text-2xl text-semibold">Customer says:</span> {reviewtxt}
+        <span className="md:text-2xl text-xl text-semibold">Customer says:</span> {reviewtxt}
       </p>
 
       <div className="flex justify-end pr-1  items-center">

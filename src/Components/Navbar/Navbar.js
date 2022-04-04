@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 //
 const Navbar = () => {
   return (
-    <div className="py-6 bg-[#d8e2dc]">
-      <div className="flex justify-between items-center md:w-2/3 md:mx-auto md:text-xl text-sm px-4">
+    <div className="py-6 bg-[#d8e2dc] w-full">
+      <div className="flex justify-between items-center md:w-2/3 w-full md:mx-auto md:text-xl text-sm px-4">
         <NavLink
           className={({ isActive }) =>
             isActive ? "text-[#023047] border-b-2 border-[#023047]" : "text-[#577590]"

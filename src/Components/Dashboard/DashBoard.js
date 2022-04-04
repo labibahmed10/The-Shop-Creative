@@ -3,7 +3,6 @@ import React from "react";
 import {
   BarChart,
   Bar,
-  Cell,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -58,11 +57,12 @@ const DashBoard = () => {
   ];
 
   return (
-    <div className="flex items-center justify-evenly pt-16 flex-wrap">
+    <div className="flex items-center justify-evenly md:flex-row flex-col pt-16 flex-wrap gap-5 ">
       <div>
         <h2 className="text-center pb-5 text-xl font-[700] text-[#8884d8]">Investment vs Revenue</h2>
+
         <BarChart
-          width={500}
+          width={320}
           height={300}
           data={data}
           margin={{
@@ -83,7 +83,7 @@ const DashBoard = () => {
       </div>
 
       <div>
-        <PieChart width={400} height={300}>
+        <PieChart width={320} height={300}>
           <Pie data={data} dataKey="revenue" cx="50%" cy="50%" outerRadius={90} fill="#8884d8" />
           <Pie
             data={data}
@@ -101,7 +101,7 @@ const DashBoard = () => {
 
       <div className="mt-10">
         <AreaChart
-          width={400}
+          width={320}
           height={300}
           data={data}
           margin={{
@@ -124,7 +124,7 @@ const DashBoard = () => {
 
       <div className="mt-16">
         <ComposedChart
-          width={400}
+          width={320}
           height={300}
           data={data}
           margin={{

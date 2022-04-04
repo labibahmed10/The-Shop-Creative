@@ -5,7 +5,7 @@ const ShoeDetails = ({ shoe }) => {
 
   const { img, name, price, category } = shoe;
   return (
-    <div className="w-[22rem] p-2 border-2 mx-auto text-[#84A59D]">
+    <div className="md:w-[22rem] w-72 p-2 border-2 mx-auto text-[#84A59D]">
       <img src={img} alt="" />
       <div>
         <h2 className="text-xl pt-3 pb-4">Name : {name.length > 30 ? name.slice(0, 20) : name}</h2>
