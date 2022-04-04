@@ -5,6 +5,7 @@ import Blogs from "./Components/Blogs/Blogs";
 import DashBoard from "./Components/Dashboard/DashBoard";
 import NotFound from "./Components/ErrorNotFound/NotFound";
 import Home from "./Components/Home/Home";
+import MoreShoes from "./Components/MoreShoes/MoreShoes";
 import Navbar from "./Components/Navbar/Navbar";
 import ReviewPage from "./Components/ReviewPage/ReviewPage";
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/moreshoes" element={<MoreShoes></MoreShoes>}></Route>
         <Route path="/reviews" element={<ReviewPage></ReviewPage>}></Route>
         <Route path="/dashboard" element={<DashBoard></DashBoard>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>

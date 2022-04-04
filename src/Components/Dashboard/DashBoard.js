@@ -77,8 +77,8 @@ const DashBoard = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="investment" fill="#8884d8" />
-          <Bar dataKey="revenue" fill="#82ca9d" />
+          <Bar dataKey="investment" fill="#3a86ff" />
+          <Bar dataKey="revenue" fill="#84a59d" />
         </BarChart>
       </div>
 
@@ -116,7 +116,7 @@ const DashBoard = () => {
           <YAxis />
           <Tooltip />
           <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
-          <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
+          <Area type="monotone" dataKey="revenue" stackId="1" stroke="#3a86ff" fill="#3a86ff" />
           <Area type="monotone" dataKey="sell" stackId="1" stroke="#ffc658" fill="#ffc658" />
         </AreaChart>
         <h2 className="text-center pb-5 text-xl font-[700] text-[#8884d8]">Investment vs Revenue</h2>
