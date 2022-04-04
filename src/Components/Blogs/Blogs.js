@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="w-3/4 mx-auto text-justify text-[#6c8881]">
       <div>
         <h1 className="text-center text-3xl pt-10 pb-5">What is 'Context API' & what is it's purpose?</h1>
         <p className="text-xl">
@@ -35,8 +35,23 @@ const Blogs = () => {
       </div>
       <div>
         <h1 className="text-center text-3xl pt-10 pb-5">
-          Differnce between inline,block and inline block element?
+          Differnce between inline,block and inline-block element?
         </h1>
+
+        <p className="text-xl pb-10">
+          <span className="text-2xl">Answer: </span>In HTML there are various kind of elements for the
+          browser.One of them is 'Display' property.It has so many values like
+          flex,grid,inline,block,inline-block,hidden etc. <br />
+          <br />
+          Inline: An Inline element stays in a line and it does not starts a new line throughout the page.It
+          only takes as much width as possible. <br />
+          <br />
+          Block: A Block level element always starts a new line and it takes the full width of the page by
+          itself.The browser always add extra margin for this element. <br />
+          <br />
+          Inline-Block: Inline-block allows us to set a width and height on the element by ouselves.It acts as
+          a block level element but actually a inline element.
+        </p>
       </div>
     </div>
   );
